@@ -30,7 +30,7 @@ body {
 .list_title
 {
     font-size: 45px;
-    border-bottom: solid 2px #B5CABB;
+    border-bottom: solid 2px #000000;
 }
 .lists {
     display: flex;
@@ -43,9 +43,9 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #202020;
-    box-shadow: 0 0 4px 4px #000000;
-    border-radius: 4px;
+    background-color: #000000;
+    border: solid 2px #B5CABB;
+    border-radius: 0px;
     margin: 5px;
     width: 230px;
     padding: 40px;
