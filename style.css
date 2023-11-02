@@ -1,9 +1,51 @@
 *{
-  font-family: GohuFont Nerd Font;
+    font-family: GohuFont Nerd Font;
 }
 
 body {
-    background-color: #000000;
+    background-color: #1F282E;
+}
+
+.search_box {
+    display: flex;
+    margin-top: 90px;
+    vertical-align: center;
+    justify-content: center;
+}
+
+
+
+button {
+    background-color: #1F282E;
+    color: #59C99C;
+    box-shadow: 0 0 4px 4px #161c20;
+    border-radius: 4px;
+    border: none;
+    height: 41px;
+    width: 41px;
+    margin-top: 5px;
+}
+
+input[type=text] {
+    width: 690px;
+    height: 40px;
+    margin: 5px;
+    background-color: #1F282E;
+    color: #59C99C;
+    box-shadow: 0 0 4px 4px #161c20;
+    border-radius: 4px;
+    border: none;
+}
+
+input:focus {
+    width: 690px;
+    height: 40px;
+    margin: 5px;
+    background-color: #1F282E;
+    color: #59C99C;
+    box-shadow: 0 0 4px 4px #161c20;
+    border-radius: 4px;
+    border: none;
 }
 
 .info {
@@ -16,7 +58,7 @@ body {
 
 #greeting, #time {
     font-size: 40px;
-    color: #B5CABB;
+    color: #59C99C;
 }
 
 @media all and (max-width: 600px) {
@@ -30,7 +72,7 @@ body {
 .list_title
 {
     font-size: 45px;
-    border-bottom: solid 2px #202020;
+    border-bottom: solid 2px #9F789A;
 }
 .lists {
     display: flex;
@@ -43,9 +85,9 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #000000;
-    border: solid 2px #B5CABB;
-    border-radius: 0px;
+    background-color: #1F282E;
+    box-shadow: 0 0 4px 4px #161c20;
+    border-radius: 4px;
     margin: 5px;
     width: 230px;
     padding: 40px;
@@ -55,19 +97,19 @@ a {
     transition: color 0.3s ease;
 }
 a:visited, a:link, a:active {
-    color: #B5CABB;
+    color: #59C99C;
     text-decoration: none;
     font-size: 33px;
     text-indent: 2px;
     line-height: 1.6;
 }
 a:hover {
-    color: #B5CABB;
+    color: #59C99C;
     text-decoration: underline;
 }
 #w,#s,#d,#l,#e
 {
-    color: #B5CABB;
+    color: #59C99C;
 }
 #mode {
    filter: invert(100%) sepia(0%) saturate(1620%) hue-rotate(8deg) brightness(94%) contrast(88%)
