@@ -59,7 +59,7 @@ input:focus, input:active {
 }
 
 #greeting, #time {
-    font-size: 40px;
+    font-size: 28px;
     color: #59C99C;
 }
 
@@ -68,17 +68,17 @@ input:focus, input:active {
         justify-content: center;
         align-items: center;
         margin-left: 0px;
-        margin-top: 30px;
+        margin-top: 25px;
     }
 }
 .list_title
 {
-    font-size: 45px;
+    font-size: 28px;
     border-bottom: solid 2px #9F789A;
 }
 .lists {
     display: flex;
-    margin-top: 90px;
+    margin-top: 25px;
     flex-wrap: wrap;
     vertical-align: center;
     justify-content: center;
@@ -101,7 +101,7 @@ a {
 a:visited, a:link, a:active {
     color: #59C99C;
     text-decoration: none;
-    font-size: 33px;
+    font-size: 24px;
     text-indent: 2px;
     line-height: 1.6;
 }
