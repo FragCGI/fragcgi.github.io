@@ -83,6 +83,15 @@ input:focus, input:active {
     vertical-align: center;
     justify-content: center;
 }
+
+.name {
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    vertical-align: center;
+    justify-content: center;
+}
+
 .watch, .social, .dev, .linux, .other {
     display: flex;
     flex-direction: column;
