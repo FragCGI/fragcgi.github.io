@@ -8,7 +8,7 @@ body {
 
 .search_box {
     display: flex;
-    margin-top: 90px;
+    margin-top: 10px;
     vertical-align: center;
     justify-content: center;
 }
@@ -85,11 +85,10 @@ input:focus, input:active {
 }
 
 .name {
-    display: flex;
-    margin-top: 25px;
-    flex-wrap: wrap;
-    vertical-align: center;
-    justify-content: center;
+    position: relative;
+    text-align: center;
+    white-space: pre;
+    color: #59C99C;
 }
 
 .watch, .social, .dev, .linux, .other {
@@ -128,3 +127,4 @@ a:hover {
 #mode:hover {
     filter: invert(56%) sepia(45%) saturate(6917%) hue-rotate(173deg) brightness(96%) contrast(82%) !important
 }
+
