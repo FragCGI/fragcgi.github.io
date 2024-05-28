@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #1F282E;
+    background-color: #0C1618;
 }
 
 .search_box {
@@ -16,9 +16,9 @@ body {
 
 
 button {
-    background-color: #1F282E;
-    color: #59C99C;
-    box-shadow: 0 0 4px 4px #161c20;
+    background-color: #0C1618;
+    color: #CEC075;
+    box-shadow: 0 0 4px 4px #004643;
     border-radius: 4px;
     border: none;
     height: 41px;
@@ -30,9 +30,9 @@ input {
     width: 690px;
     height: 40px;
     margin: 5px;
-    background-color: #1F282E;
-    color: #59C99C;
-    box-shadow: 0 0 4px 4px #161c20;
+    background-color: #0C1618;
+    color: #CEC075;
+    box-shadow: 0 0 4px 4px #004643;
     border-radius: 4px;
     border: none;
     padding-left: 10px;
@@ -42,9 +42,9 @@ input:focus, input:active {
     width: 690px;
     height: 40px;
     margin: 5px;
-    background-color: #1F282E;
-    color: #59C99C;
-    box-shadow: 0 0 4px 4px #161c20;
+    background-color: #0C1618;
+    color: #CEC075;
+    box-shadow: 0 0 4px 4px #004643;
     border-radius: 4px;
     border: none;
     outline: none;
@@ -60,7 +60,7 @@ input:focus, input:active {
 
 #greeting, #time {
     font-size: 28px;
-    color: #59C99C;
+    color: #CEC075;
 }
 
 @media all and (max-width: 600px) {
@@ -74,7 +74,7 @@ input:focus, input:active {
 .list_title
 {
     font-size: 28px;
-    border-bottom: solid 2px #9F789A;
+    border-bottom: solid 2px #004643;
 }
 .lists {
     display: flex;
@@ -88,15 +88,15 @@ input:focus, input:active {
     position: relative;
     text-align: center;
     white-space: pre;
-    color: #59C99C;
+    color: #CEC075;
 }
 
 .watch, .social, .dev, .linux, .other {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #1F282E;
-    box-shadow: 0 0 4px 4px #161c20;
+    background-color: #0C1618;
+    box-shadow: 0 0 4px 4px #004643;
     border-radius: 4px;
     margin: 5px;
     width: 200px;
@@ -107,19 +107,19 @@ a {
     transition: color 0.3s ease;
 }
 a:visited, a:link, a:active {
-    color: #59C99C;
+    color: #CEC075;
     text-decoration: none;
     font-size: 24px;
     text-indent: 2px;
     line-height: 1.6;
 }
 a:hover {
-    color: #59C99C;
+    color: #CEC075;
     text-decoration: underline;
 }
 #w,#s,#d,#l,#e
 {
-    color: #59C99C;
+    color: #CEC075;
 }
 #mode {
    filter: invert(100%) sepia(0%) saturate(1620%) hue-rotate(8deg) brightness(94%) contrast(88%)
