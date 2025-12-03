@@ -28,8 +28,10 @@ button {
 
 #buttons {
 	background-color: transparent;
-	overflow: hidden;
 	width: 400px;
+	display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .button_up {
