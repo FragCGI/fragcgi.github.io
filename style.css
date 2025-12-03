@@ -26,6 +26,12 @@ button {
     margin-top: 5px;
 }
 
+#buttons {
+	background-color: transparent;
+	overflow: hidden;
+	width: 400px;
+}
+
 .button_up {
 	width: 0;
 	height: 0;
