@@ -26,6 +26,42 @@ button {
     margin-top: 5px;
 }
 
+.button_up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #59C99C;
+    color: #1F282E;
+}
+
+.button_down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #59C99C;
+    color: #1F282E;
+}
+
+.button_left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #59C99C;
+	border-bottom: 25px solid transparent;
+    color: #1F282E;
+}
+
+.button_right {
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid #59C99C;
+	border-bottom: 25px solid transparent;
+    color: #1F282E;
+}
+
 input {
     width: 690px;
     height: 40px;
